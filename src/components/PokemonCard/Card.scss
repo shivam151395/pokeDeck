@@ -1,0 +1,21 @@
+.card-container{
+  width:200px;
+  min-height:200px;
+  cursor: pointer;
+  background-color: rgba(252, 252, 252,0.9);
+  // background-color:  #fff;
+  display: inline-block;
+  margin:8px;
+  border-radius: 10%;
+  &:hover{
+    background-color: rgba(253, 171, 171,0.9);
+  }
+}
+.name{
+  font-size: 187.5%;
+    font-weight: 500;
+      margin-top:20px;
+      line-height: 125%;
+      text-transform: none;
+      font-family: "Flexo-Regular",arial,sans-serif;
+}

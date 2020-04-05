@@ -1,0 +1,69 @@
+.main{
+  width:100%;
+  height:100%;
+  margin-bottom:20px;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://images.alphacoders.com/603/thumb-1920-603479.png');
+  overflow-y: auto;
+  background-color: #000;
+  &__applied-filter-container{
+    position: relative;
+     display: flex;
+     background-color: rgba(0,0,0,0.8);
+     align-items: center;
+     padding-bottom:30px;
+     justify-content: space-between;
+     padding: 0px 16px 0 0px;
+     &__items{
+       justify-content: flex-start;
+       width: 100%;
+       display: flex
+     }
+  }
+  &__section{
+    .no-more-result{
+      margin:auto;
+      margin-top:10%;
+       width:600px;
+       border-radius: 20px;
+       height:180px;
+       border: 1px solid #E3350D;
+       background-color: rgba(252, 252, 252,0.9);
+       text-align: left;
+       padding-left:20px;
+       padding-top: 20px;
+       &__heading{
+         padding-top:16px;
+         font-size: 32px;
+         color: #E3350D;
+         font-weight: 600;
+       }
+      }
+    background-image: url('https://images3.alphacoders.com/648/thumb-1920-648618.jpg');
+     background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom:36px;
+      position: relative;
+      padding-top:24px;
+     
+      min-height:600px;
+      background-color: #fff;
+     }
+     &__section-empty{
+      margin: auto auto;
+      width:100%;
+      height:100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // min-height:400px;
+      background-color: rgba(185, 172, 172, 0.1);;;
+     }
+     
+}
